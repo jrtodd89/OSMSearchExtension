@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "OpenStreetMap Search Extension",
+  "description": "Extension to search OSM from right click menu",
+  "version": "1.0",
+  "icons": {
+    "16": "./images/OSMLogo16.png",
+    "32": "./images/OSMLogo32.png",
+    "48": "./images/OSMLogo48.png",
+    "128": "./images/OSMLogo128.png"
+  },
+  "permissions": ["activeTab", "contextMenus"],
+  "background": {
+    "service_worker": "./scripts/script.js"
+  }
+}
